@@ -63,5 +63,5 @@ func connectMongo(collectionName string) *mgo.Collection {
 		panic(err)
 	}
 
-	return s.DB("onefits").C(collectionName)
+	return s.DB("project").C(collectionName)
 }
