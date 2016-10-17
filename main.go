@@ -46,7 +46,7 @@ type mongoUser struct {
 }
 
 func connect() *neoism.Database {
-	db, err := neoism.Connect("http://neo4j:Zeu16051997@localhost:7474/db/data")
+	db, err := neoism.Connect("http://neo4j:12345678@localhost:7474/db/data")
 	if err != nil {
 		log.Fatal(err)
 	}
